@@ -22,7 +22,8 @@ fn fib(n: i32) -> i32 {
 	}
 }
 
-// Also nice, though x..y loops from x to y - 1, not y
+// Also nice, though x..y loops from x to y - 1, not y,
+// which I would have expected
 fn fibs(max_n: i32) {
 	for i in 0..max_n {
 		println!("{}\t{}", i, fib(i));
